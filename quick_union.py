@@ -8,8 +8,7 @@ class UF:
         q_root = self.find_root(q)
         return p_root == q_root
 
-    def find_root(self, p):
-        i = p
+    def find_root(self, i):
         root = i
         while True:
             if self.id[i] == i:
